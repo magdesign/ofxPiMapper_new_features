@@ -27,7 +27,7 @@ Add following functions to the existing ofxPiMapper:
 
 - Circular surface control (center point adjust)
 - Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example)
-- Sync (several RPis with ofxPiMapper will share their timecode to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync
+- Sync (several RPis with ofxPiMapper will share their timecode (boradcast, no IP entering!) to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync or this: https://github.com/bmoren/node-omxplayer-sync
 - Grip warp surface, rpi powerfull enough?, see this paper: https://www.ronenbarzel.org/papers/warp.pdf
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/grid_warp.gif?raw=true)
 

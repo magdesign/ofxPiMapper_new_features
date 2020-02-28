@@ -24,6 +24,7 @@ Add following functions to the existing ofxPiMapper:
 - Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example)
 - Sync (several RPis with ofxPiMapper will share their timecode to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync
 - Grip warp surface, with a predefined raster of 16x16, see this paper: https://www.ronenbarzel.org/papers/warp.pdf
+- USB camera feed (to use RPi as mapping-box for other streams)
 
 
 People who could help on this:

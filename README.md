@@ -1,6 +1,7 @@
 # ofxPiMapper_new_features
+must run on RPi3 and Linux (no plans for RPi4 so far)
 
-References:
+Reference Projects:
 
 ofxPiMapper
 https://github.com/kr15h/ofxPiMapper
@@ -19,16 +20,24 @@ https://github.com/Karma-Kusala/karmaMapper
 
 Add following functions to the existing ofxPiMapper:
 
-- Soft Edge overlay, so you could drag a softedge blur from the edges of a quad
+- Soft Edge overlay, so you could drag a softedge blur from the edges of a quad:
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/softedge.gif?raw=true)
-- Fullscreen quad, select a quad and with hitting a button this quad will go fullscreen
-![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/fullscreen.gif?raw=true)
-- .png overlay mask, overlay a .png over a quad
-
-- Circular surface control (center point adjust)
+- Fullscreen quad, select a quad, hit shift+f, this quad will go fullscreen:
+![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/fullscreen2.gif?raw=true)
+- Circular surface control (center point adjust):
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/circular.gif?raw=true)
-- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example)
+
+
+- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, needs an overlay to show the keybindings when hitting "I" and a filed to enter the IP of the RPI):
+(gif coming)
+
 - Sync (several RPis with ofxPiMapper will share their timecode (boradcast, no IP entering!) to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync or this: https://github.com/bmoren/node-omxplayer-sync
+
+
+
+- .png overlay mask, overlay a .png with alpha over an existing quad
+
+
 - Grip warp surface, rpi powerfull enough?, see this paper: https://www.ronenbarzel.org/papers/warp.pdf
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/grid_warp.gif?raw=true)
 
@@ -38,5 +47,9 @@ Add following functions to the existing ofxPiMapper:
 People who could help on this:
 
 https://github.com/CyrCom  => asked, is motivated
+
 https://github.com/kr15h => might not have enough time
+
+https://github.com/c-mendoza => 
+
 https://github.com/lewislepton

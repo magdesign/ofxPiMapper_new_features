@@ -22,11 +22,15 @@ Add following functions to the existing ofxPiMapper:
 - Soft Edge overlay, so you could drag a softedge blur from the edges of a quad
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/softedge.gif?raw=true)
 - Fullscreen quad, select a quad and with hitting a button this quad will go fullscreen
-
+![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/fullscreen.gif?raw=true)
 - .png overlay mask, overlay a .png over a quad
+
+- Circular surface control (center point adjust)
 - Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example)
 - Sync (several RPis with ofxPiMapper will share their timecode to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync
-- Grip warp surface, with a predefined raster of 16x16, see this paper: https://www.ronenbarzel.org/papers/warp.pdf
+- Grip warp surface, rpi powerfull enough?, see this paper: https://www.ronenbarzel.org/papers/warp.pdf
+![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/grid_warp.gif?raw=true)
+
 - USB camera feed (to use RPi as mapping-box for other streams)
 
 

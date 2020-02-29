@@ -27,7 +27,7 @@ Add following functions to the existing ofxPiMapper:
 - Circular surface control (center point adjust):
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/circular.gif?raw=true)
 
-- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, test it to check its stable or if we need some improvements.
+- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, test if it is stable (all platforms) or if we need some improvements.
 
 - Sync (several RPis with ofxPiMapper will share their timecode (boradcast, no IP entering!) to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync or this: https://github.com/bmoren/node-omxplayer-sync
 
@@ -37,6 +37,8 @@ Add following functions to the existing ofxPiMapper:
 
 - Grip warp surface, rpi powerfull enough?, see this paper: https://www.ronenbarzel.org/papers/warp.pdf
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/grid_warp.gif?raw=true)
+
+- Pixel to DMX Mapping, create a quad which reads out the color of where its positioned over the video and send dmx signals (https://github.com/MadSciLabs/ofxDmxUtils).
 
 - USB camera feed (to use RPi as mapping-box for other streams)
 

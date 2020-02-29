@@ -27,12 +27,9 @@ Add following functions to the existing ofxPiMapper:
 - Circular surface control (center point adjust):
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/circular.gif?raw=true)
 
-
-- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, needs an overlay to show the keybindings when hitting "I" and a filed to enter the IP of the RPI):
-(gif coming)
+- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, test it to check its stable or if we need some improvements.
 
 - Sync (several RPis with ofxPiMapper will share their timecode (boradcast, no IP entering!) to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync or this: https://github.com/bmoren/node-omxplayer-sync
-
 
 
 - .png overlay mask, overlay a .png with alpha over an existing quad
@@ -50,6 +47,8 @@ https://github.com/CyrCom  => asked, is motivated
 
 https://github.com/kr15h => might not have enough time
 
-https://github.com/c-mendoza => 
+https://github.com/c-mendoza => circular stuff?
 
-https://github.com/lewislepton
+https://github.com/lewislepton =>
+
+If you can code one of the features, contact me!

@@ -53,6 +53,6 @@ https://github.com/kr15h => might not have enough time
 
 https://github.com/c-mendoza => circular stuff?
 
-https://github.com/lewislepton =>
+https://github.com/lewislepton => asked via email.
 
 If you can code one of the features, contact me!

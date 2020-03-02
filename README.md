@@ -20,6 +20,10 @@ https://github.com/Karma-Kusala/karmaMapper
 
 Add following functions to the existing ofxPiMapper:
 
+- Sync (several RPis with ofxPiMapper will share their timecode (boradcast, no IP entering!) to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync or this: https://github.com/bmoren/node-omxplayer-sync
+see here: https://github.com/kr15h/ofxPiMapper/issues/117#issuecomment-591306363
+
+
 - Soft Edge overlay, so you could drag a softedge blur from the edges of a quad:
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/softedge.gif?raw=true)
 - Fullscreen quad, select a quad, hit shift+f, this quad will go fullscreen:
@@ -28,8 +32,6 @@ Add following functions to the existing ofxPiMapper:
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/circular.gif?raw=true)
 
 - Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, test if it is stable (all platforms) or if we need some improvements.
-
-- Sync (several RPis with ofxPiMapper will share their timecode (boradcast, no IP entering!) to run in sync, maybe based on this: https://github.com/turingmachine/omxplayer-sync or this: https://github.com/bmoren/node-omxplayer-sync
 
 
 - .png overlay mask, overlay a .png with alpha over an existing quad

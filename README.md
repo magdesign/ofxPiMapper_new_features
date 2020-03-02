@@ -31,7 +31,7 @@ see here: https://github.com/kr15h/ofxPiMapper/issues/117#issuecomment-591306363
 - Circular surface control (center point adjust):
 ![](https://github.com/magdesign/ofxPiMapper_new_features/blob/master/circular.gif?raw=true)
 
-- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, test if it is stable (all platforms) or if we need some improvements.
+- Remote Control (control the mapping surfaces from another computer over tcp, there is an existing example, works great on Linux, but I am not able to build and run this for windows, can you build this?.
 
 
 - .png overlay mask, overlay a .png with alpha over an existing quad

@@ -42,6 +42,8 @@ see here: https://github.com/kr15h/ofxPiMapper/issues/117#issuecomment-591306363
 
 - Pixel to DMX Mapping, create a quad which reads out the color of where its positioned over the video and send dmx signals (https://github.com/MadSciLabs/ofxDmxUtils).
 
+- ofx timeline (enough performance?) to set pictures and videos behind each other....
+
 - USB camera feed (to use RPi as mapping-box for other streams)
 
 

@@ -57,4 +57,6 @@ https://github.com/c-mendoza => circular stuff?
 
 https://github.com/lewislepton => asked via email.
 
+https://github.com/pierrep/ => currently working on the additions!
+
 If you can code one of the features, contact me!
